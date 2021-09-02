@@ -1,0 +1,16 @@
+{
+  "name": "tdubs-api4-guided",
+  "version": "1.0.0",
+  "description": "Third time deploying to Heroku! Woohoo!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
