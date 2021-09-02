@@ -10,6 +10,8 @@ const server = express()
 server.use(express.json())
 server.use(cors())
 server.use(helmet())
+server.use(express.static(path.join(__dirname, 'client/client/build')))
+
 server.use('/api', logger, router)
 
 server.get('*', (req, res) => res.sendFile(path.join(__dirname, 'client/client/build', 'index.html')))
